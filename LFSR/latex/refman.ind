@@ -1,0 +1,33 @@
+\begin{theindex}
+
+  \item {Galois\+\_\+\+L\+F\+S\+R.\+h}, \hyperpage{13}
+  \item {Galois\+\_\+\+L\+F\+SR}, \hyperpage{7}
+    \subitem {Galois\+\_\+\+L\+F\+SR}, \hyperpage{7}
+    \subitem {get\+\_\+random\+\_\+bits}, \hyperpage{8}
+    \subitem {get\+\_\+respond\+\_\+bits}, \hyperpage{8}
+    \subitem {print\+\_\+bits}, \hyperpage{8}
+    \subitem {reverse\+\_\+bits}, \hyperpage{9}
+    \subitem {set\+\_\+start\+\_\+bits}, \hyperpage{9}
+  \item {Galois\+Error}, \hyperpage{10}
+    \subitem {Galois\+Error}, \hyperpage{11}
+  \item {get\+\_\+random\+\_\+bits}
+    \subitem {Galois\+\_\+\+L\+F\+SR}, \hyperpage{8}
+  \item {get\+\_\+respond\+\_\+bits}
+    \subitem {Galois\+\_\+\+L\+F\+SR}, \hyperpage{8}
+
+  \indexspace
+
+  \item {print\+\_\+bits}
+    \subitem {Galois\+\_\+\+L\+F\+SR}, \hyperpage{8}
+
+  \indexspace
+
+  \item {reverse\+\_\+bits}
+    \subitem {Galois\+\_\+\+L\+F\+SR}, \hyperpage{9}
+
+  \indexspace
+
+  \item {set\+\_\+start\+\_\+bits}
+    \subitem {Galois\+\_\+\+L\+F\+SR}, \hyperpage{9}
+
+\end{theindex}

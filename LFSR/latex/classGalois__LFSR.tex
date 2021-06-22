@@ -1,0 +1,149 @@
+\hypertarget{classGalois__LFSR}{}\section{Класс Galois\+\_\+\+L\+F\+SR}
+\label{classGalois__LFSR}\index{Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}}
+
+
+{\ttfamily \#include $<$Galois\+\_\+\+L\+F\+S\+R.\+h$>$}
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGalois__LFSR_a23455fca80e4ed521062a7b2842edb03}{Galois\+\_\+\+L\+F\+SR} ()
+\begin{DoxyCompactList}\small\item\em Конструктор \end{DoxyCompactList}\item 
+void \hyperlink{classGalois__LFSR_a7a2d2fa3f9f7973cb520d92267f58f4d}{print\+\_\+bits} (uint64\+\_\+t bits)
+\begin{DoxyCompactList}\small\item\em Функция для вывода числа в битном представлении \end{DoxyCompactList}\item 
+void \hyperlink{classGalois__LFSR_aa3a893992b929b01a649d859a121ae34}{set\+\_\+start\+\_\+bits} (uint64\+\_\+t bits)
+\begin{DoxyCompactList}\small\item\em Функция принимает на вход число. Устанавливает начальный регистр. \end{DoxyCompactList}\item 
+uint64\+\_\+t \hyperlink{classGalois__LFSR_abc5cfd0aa22803188a1f81a5959f22eb}{get\+\_\+random\+\_\+bits} ()
+\begin{DoxyCompactList}\small\item\em Функция для генерации случайной начальной позиции \end{DoxyCompactList}\item 
+uint64\+\_\+t \hyperlink{classGalois__LFSR_ae8b9c21348f0f6f75c539e7a8667be88}{reverse\+\_\+bits} (uint64\+\_\+t bits)
+\begin{DoxyCompactList}\small\item\em Функция для нахождения перевёрнутого числа \end{DoxyCompactList}\item 
+uint64\+\_\+t \hyperlink{classGalois__LFSR_a1ceda4d66d840ff703cd14a3919b2f8b}{get\+\_\+respond\+\_\+bits} (bool is\+\_\+random\+\_\+bits)
+\begin{DoxyCompactList}\small\item\em Функция для генерации псевдослучайного числа \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+\begin{DoxyAuthor}{Автор}
+vo5torg 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+06/22/21 
+\end{DoxyDate}
+
+
+\subsection{Конструктор(ы)}
+\mbox{\Hypertarget{classGalois__LFSR_a23455fca80e4ed521062a7b2842edb03}\label{classGalois__LFSR_a23455fca80e4ed521062a7b2842edb03}} 
+\index{Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}!Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}}
+\index{Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}!Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}}
+\subsubsection{\texorpdfstring{Galois\+\_\+\+L\+F\+S\+R()}{Galois\_LFSR()}}
+{\footnotesize\ttfamily Galois\+\_\+\+L\+F\+S\+R\+::\+Galois\+\_\+\+L\+F\+SR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Конструктор 
+
+Конструктор по-\/умолчанию, не принимает ничего на вход. 
+
+\subsection{Методы}
+\mbox{\Hypertarget{classGalois__LFSR_abc5cfd0aa22803188a1f81a5959f22eb}\label{classGalois__LFSR_abc5cfd0aa22803188a1f81a5959f22eb}} 
+\index{Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}!get\+\_\+random\+\_\+bits@{get\+\_\+random\+\_\+bits}}
+\index{get\+\_\+random\+\_\+bits@{get\+\_\+random\+\_\+bits}!Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}}
+\subsubsection{\texorpdfstring{get\+\_\+random\+\_\+bits()}{get\_random\_bits()}}
+{\footnotesize\ttfamily uint64\+\_\+t Galois\+\_\+\+L\+F\+S\+R\+::get\+\_\+random\+\_\+bits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция для генерации случайной начальной позиции 
+
+Функция генерирует случайное число.
+
+\begin{DoxyReturn}{Возвращает}
+Случайное число 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGalois__LFSR_a1ceda4d66d840ff703cd14a3919b2f8b}\label{classGalois__LFSR_a1ceda4d66d840ff703cd14a3919b2f8b}} 
+\index{Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}!get\+\_\+respond\+\_\+bits@{get\+\_\+respond\+\_\+bits}}
+\index{get\+\_\+respond\+\_\+bits@{get\+\_\+respond\+\_\+bits}!Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}}
+\subsubsection{\texorpdfstring{get\+\_\+respond\+\_\+bits()}{get\_respond\_bits()}}
+{\footnotesize\ttfamily uint64\+\_\+t Galois\+\_\+\+L\+F\+S\+R\+::get\+\_\+respond\+\_\+bits (\begin{DoxyParamCaption}\item[{bool}]{is\+\_\+random\+\_\+bits }\end{DoxyParamCaption})}
+
+
+
+Функция для генерации псевдослучайного числа 
+
+Функция принимает на вход булеву переменную. Генерирует псевдослучайное число.
+
+
+\begin{DoxyParams}{Аргументы}
+{\em is\+\_\+random\+\_\+bits} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Псевдослучайное число 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGalois__LFSR_a7a2d2fa3f9f7973cb520d92267f58f4d}\label{classGalois__LFSR_a7a2d2fa3f9f7973cb520d92267f58f4d}} 
+\index{Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}!print\+\_\+bits@{print\+\_\+bits}}
+\index{print\+\_\+bits@{print\+\_\+bits}!Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}}
+\subsubsection{\texorpdfstring{print\+\_\+bits()}{print\_bits()}}
+{\footnotesize\ttfamily void Galois\+\_\+\+L\+F\+S\+R\+::print\+\_\+bits (\begin{DoxyParamCaption}\item[{uint64\+\_\+t}]{bits }\end{DoxyParamCaption})}
+
+
+
+Функция для вывода числа в битном представлении 
+
+Функция, принимающая на вход число. Выводит число по битам.
+
+
+\begin{DoxyParams}{Аргументы}
+{\em bits} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGalois__LFSR_ae8b9c21348f0f6f75c539e7a8667be88}\label{classGalois__LFSR_ae8b9c21348f0f6f75c539e7a8667be88}} 
+\index{Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}!reverse\+\_\+bits@{reverse\+\_\+bits}}
+\index{reverse\+\_\+bits@{reverse\+\_\+bits}!Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}}
+\subsubsection{\texorpdfstring{reverse\+\_\+bits()}{reverse\_bits()}}
+{\footnotesize\ttfamily uint64\+\_\+t Galois\+\_\+\+L\+F\+S\+R\+::reverse\+\_\+bits (\begin{DoxyParamCaption}\item[{uint64\+\_\+t}]{bits }\end{DoxyParamCaption})}
+
+
+
+Функция для нахождения перевёрнутого числа 
+
+Функция, принимающая на вход число. \char`\"{}Отзеркаливает\char`\"{} его по битам.
+
+
+\begin{DoxyParams}{Аргументы}
+{\em bits} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Перевёрнутое число 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \hyperlink{classGaloisError}{Galois\+Error},если} & число равно нулю \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classGalois__LFSR_aa3a893992b929b01a649d859a121ae34}\label{classGalois__LFSR_aa3a893992b929b01a649d859a121ae34}} 
+\index{Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}!set\+\_\+start\+\_\+bits@{set\+\_\+start\+\_\+bits}}
+\index{set\+\_\+start\+\_\+bits@{set\+\_\+start\+\_\+bits}!Galois\+\_\+\+L\+F\+SR@{Galois\+\_\+\+L\+F\+SR}}
+\subsubsection{\texorpdfstring{set\+\_\+start\+\_\+bits()}{set\_start\_bits()}}
+{\footnotesize\ttfamily void Galois\+\_\+\+L\+F\+S\+R\+::set\+\_\+start\+\_\+bits (\begin{DoxyParamCaption}\item[{uint64\+\_\+t}]{bits }\end{DoxyParamCaption})}
+
+
+
+Функция принимает на вход число. Устанавливает начальный регистр. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em bits} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \hyperlink{classGaloisError}{Galois\+Error},если} & число равно нулю \\
+\hline
+\end{DoxyExceptions}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Galois__LFSR_8h}{Galois\+\_\+\+L\+F\+S\+R.\+h}\item 
+Galois\+\_\+\+L\+F\+S\+R.\+cpp\end{DoxyCompactItemize}
