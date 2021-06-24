@@ -1,6 +1,8 @@
 #include "Galois_LFSR.h"
+
 /**
  * @brief Конструктор по-умолчанию, не принимает ничего на вход.
+ * @file Galois_LFSR.cpp
  */
 Galois_LFSR::Galois_LFSR()
 {
