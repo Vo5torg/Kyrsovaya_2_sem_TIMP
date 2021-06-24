@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.3.20)  22 JUN 2021 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.3.20)  24 JUN 2021 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,49 +1155,46 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 
 
 LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
-(Font)              using `T2A/phv/m/n' instead on input line 11.
+(Font)              using `T2A/phv/m/n' instead on input line 12.
 
 
-Underfull \hbox (badness 10000) detected at line 25
+Underfull \hbox (badness 10000) detected at line 26
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 28
+Underfull \hbox (badness 10000) detected at line 29
 [][][]
  []
 
 [7]
-Underfull \hbox (badness 10000) detected at line 59
+Underfull \hbox (badness 10000) detected at line 47
 [][][]
  []
 
 
 LaTeX Font Warning: Font shape `T2A/pcr/m/it' undefined
-(Font)              using `T2A/pcr/m/n' instead on input line 66.
+(Font)              using `T2A/pcr/m/n' instead on input line 54.
 
 
-Underfull \hbox (badness 10000) detected at line 79
+Underfull \hbox (badness 10000) detected at line 67
 [][][]
  []
 
 [8]
-Underfull \hbox (badness 10000) detected at line 116
+Underfull \hbox (badness 10000) detected at line 104
 [][][]
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9])
-(./classGaloisError.tex
-<classGaloisError__inherit__graph.pdf, id=229, 163.61125pt x 156.585pt>
+) (./classGaloisError.tex
+<classGaloisError__inherit__graph.pdf, id=232, 163.61125pt x 156.585pt>
 File: classGaloisError__inherit__graph.pdf Graphic file (type pdf)
 <use classGaloisError__inherit__graph.pdf>
 Package pdftex.def Info: classGaloisError__inherit__graph.pdf  used on input li
 ne 19.
 (pdftex.def)             Requested size: 163.0pt x 155.99922pt.
-<classGaloisError__coll__graph.pdf, id=230, 163.61125pt x 156.585pt>
+ [9]
+<classGaloisError__coll__graph.pdf, id=242, 163.61125pt x 156.585pt>
 File: classGaloisError__coll__graph.pdf Graphic file (type pdf)
 <use classGaloisError__coll__graph.pdf>
 Package pdftex.def Info: classGaloisError__coll__graph.pdf  used on input line 
@@ -1212,41 +1209,63 @@ ion: multiple pdfs with page group included in a single page
 
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 5.
-(./Galois__LFSR_8h.tex
-<Galois__LFSR_8h__incl.pdf, id=267, 212.795pt x 156.585pt>
+(./Galois__LFSR_8cpp.tex
+<Galois__LFSR_8cpp__incl.pdf, id=279, 212.795pt x 212.795pt>
+File: Galois__LFSR_8cpp__incl.pdf Graphic file (type pdf)
+<use Galois__LFSR_8cpp__incl.pdf>
+Package pdftex.def Info: Galois__LFSR_8cpp__incl.pdf  used on input line 14.
+(pdftex.def)             Requested size: 212.0pt x 212.01193pt.
+) (./Galois__LFSR_8h.tex
+<Galois__LFSR_8h__incl.pdf, id=280, 212.795pt x 156.585pt>
 File: Galois__LFSR_8h__incl.pdf Graphic file (type pdf)
 <use Galois__LFSR_8h__incl.pdf>
 Package pdftex.def Info: Galois__LFSR_8h__incl.pdf  used on input line 15.
 (pdftex.def)             Requested size: 212.0pt x 156.00879pt.
-) [13 <./Galois__LFSR_8h__incl.pdf>] [14
+ [13 <./Galois__LFSR_8cpp__incl.pdf>]
+<Galois__LFSR_8h__dep__incl.pdf, id=295, 256.96pt x 156.585pt>
+File: Galois__LFSR_8h__dep__incl.pdf Graphic file (type pdf)
+<use Galois__LFSR_8h__dep__incl.pdf>
+Package pdftex.def Info: Galois__LFSR_8h__dep__incl.pdf  used on input line 23.
 
-] (./refman.ind
-[15
+(pdftex.def)             Requested size: 256.0pt x 156.01117pt.
+) (./main_8cpp.tex
+<main_8cpp__incl.pdf, id=298, 273.02pt x 212.795pt>
+File: main_8cpp__incl.pdf Graphic file (type pdf)
+<use main_8cpp__incl.pdf>
+Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 11.
+(pdftex.def)             Requested size: 272.0pt x 212.01193pt.
+ [14 <./Galois__LFSR_8h__incl.pdf> <./Galois__LFSR_8h__dep__incl.pdf
+
+pdfTeX warning: pdflatex (file ./Galois__LFSR_8h__dep__incl.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]) [15 <./main_8cpp__incl.pdf>] [16
+
+] (./refman.ind [17
 
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./refman.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 92C825C0078A7189D6A011B328E04D1B;4785.
+(rerunfilecheck)             Checksum: 281C8FE62BA4C238C0BA74C5E266E20C;4983.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 15902 strings out of 494035
- 226435 string characters out of 6169000
- 328039 words of memory out of 5000000
- 19245 multiletter control sequences out of 15000+600000
+ 15935 strings out of 494035
+ 227240 string characters out of 6169000
+ 329178 words of memory out of 5000000
+ 19261 multiletter control sequences out of 15000+600000
  21539 words of font info for 52 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 53i,15n,92p,994b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,15n,92p,996b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/vo5torg/.texlive2018/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600
 pk> </home/vo5torg/.texlive2018/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0900.60
 0pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/vo5torg/
@@ -1260,10 +1279,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on refman.pdf (19 pages, 147156 bytes).
+Output written on refman.pdf (21 pages, 169327 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 721 PDF objects out of 1000 (max. 8388607)
+ 368 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 

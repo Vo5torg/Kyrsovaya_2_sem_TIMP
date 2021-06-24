@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['set_5fstart_5fbits',['set_start_bits',['../classGalois__LFSR.html#aa3a893992b929b01a649d859a121ae34',1,'Galois_LFSR']]]
+  ['reverse_5fbits',['reverse_bits',['../classGalois__LFSR.html#ae8b9c21348f0f6f75c539e7a8667be88',1,'Galois_LFSR']]]
 ];
