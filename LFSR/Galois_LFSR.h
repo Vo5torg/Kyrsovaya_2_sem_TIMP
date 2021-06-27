@@ -25,6 +25,7 @@ public:
 	Galois_LFSR(); ///< Конструктор
 	void print_bits(uint64_t bits); ///< Функция для вывода числа в битном представлении
 	void set_start_bits(uint64_t bits); //< Функция для установки начальной позиции
+	uint64_t get_start_bits(); //< Функция возвращает начальное значение
 	uint64_t get_random_bits(); ///< Функция для генерации случайной начальной позиции
 	uint64_t reverse_bits(uint64_t bits); ///< Функция для нахождения перевёрнутого числа
 	uint64_t get_respond_bits(bool is_random_bits); ///< Функция для генерации псевдослучайного числа

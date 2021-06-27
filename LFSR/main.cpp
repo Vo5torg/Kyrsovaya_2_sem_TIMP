@@ -16,11 +16,13 @@ int main(int argc, char **argv)
 		do {
 			cout<<"Выберите операцию (0-выход, 1-генератор чисел): ";
 			cin>>num_operation;
-			if (num_operation==1) {
+			if (num_operation==0) {
+			}
+			else if (num_operation==1) {
 				Galois_LFSR generator;
 				cout<<"Сколько чисел cгенерировать?: ";
 				cin>>num_numbers;
-				if ((num_numbers>1)&&(num_numbers<100)) {
+				if ((num_numbers>=1)&&(num_numbers<=100)) {
 					for (int i = 0; i<num_numbers; i++) {
 						uint64_t num_gen = generator.get_respond_bits(true);
 						cout<<"В шестнадцатеричной системе: "<<hex<<num_gen<<endl;

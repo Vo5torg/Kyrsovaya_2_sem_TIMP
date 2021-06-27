@@ -62,6 +62,14 @@ void Galois_LFSR::set_start_bits(uint64_t bits)
 	}
 }
 /**
+ * @brief Функция возвращает начальный регистр.
+ * @return Начальный регистр
+ */
+uint64_t Galois_LFSR::get_start_bits()
+{
+	return start_bits;
+}
+/**
  * @brief Функция принимает на вход булеву переменную. Генерирует псевдослучайное число.
  * @param is_random_bits
  * @return Псевдослучайное число
