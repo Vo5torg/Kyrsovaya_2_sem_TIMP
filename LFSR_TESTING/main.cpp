@@ -30,7 +30,10 @@ SUITE(RevesreTest)
 }
 SUITE(SetBitsTest)
 {
-	
+	TEST_FIXTURE(LFSR_fixture, NonZeroStartBits) {
+		p->set_start_bits(0x000000000001);
+		CHECK_EQUAL(p->get_start_bits(),0x000000000001);
+	}
 	TEST_FIXTURE(LFSR_fixture, ZeroStartBits) {
 		CHECK_THROW(p->set_start_bits(0x000000000000),GaloisError);
 	}
@@ -50,8 +53,8 @@ SUITE(GenerateTest)
 }
 SUITE(RandomTest)
 {
-	TEST_FIXTURE(LFSR_fixture, RandBits) {
-		CHECK(p->get_random_bits()!= p->get_random_bits());
+	TEST_FIXTURE(LFSR_fixture, RandBits_1) {
+		CHECK(p->get_random_bits() != p->get_random_bits());
 	}
 }
 
